@@ -4,6 +4,7 @@ public class TextEditorTest {
         textEditor.write("메멘토 패턴");
         textEditor.hitSave();
         textEditor.write("메멘토 수정");
+        System.out.println(textEditor.print());
         textEditor.hitUndo();
         System.out.println(textEditor.print());
     }
